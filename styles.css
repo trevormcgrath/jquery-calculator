@@ -1,0 +1,91 @@
+@import url(https://fonts.googleapis.com/css?family=Roboto:300thin);
+* {
+  font-family: 'Roboto', sans-serif;
+}
+
+body {
+  padding: 0px;
+  margin: 0px;
+  text-align: center;
+}
+
+.container {
+  width: 320px;
+  margin: 0px auto;
+  margin-top: 10%;
+}
+
+.clear {
+  clear: both;
+}
+
+@media(max-width:320px) {
+  .container {
+    width: 100%;
+    margin-top: 0px;
+  }
+}
+
+#displayContainer {
+  color: white;
+  background-color: #444444;
+  height: 60px;
+  border: 1px solid black;
+  padding:10px 5px 0 0;
+}
+
+#displayArea {
+  margin:0;
+  font-size: 45px;
+  padding: 0px;
+  float: right;
+  overflow:hidden;
+}
+
+.btn {
+  float: left;
+  border: none;
+  width: 25%;
+  height: 65px;
+  font-size: 25px;
+  cursor: pointer;
+  box-sizing: border-box;
+  border-right: 1px solid black;
+  border-bottom: 1px solid black;
+}
+
+.operator {
+  float: left;
+  border: none;
+  width: 25%;
+  height: 65px;
+  font-size: 25px;
+  cursor: pointer;
+  box-sizing: border-box;
+  border-right: 1px solid black;
+  border-bottom: 1px solid black;
+}
+
+.bottom-wider {
+  float: left;
+  border: none;
+  width: 50%;
+  height: 65px;
+  font-size: 25px;
+  cursor: pointer;
+  box-sizing: border-box;
+  border-right: 1px solid black;
+  border-bottom: 1px solid black;
+}
+
+.btn-operation {
+  background-color: #FE8C2E;
+}
+
+.btn-left {
+  border-left: 1px solid black;
+}
+
+.value {
+  background-color:#D8D9DB;
+}
